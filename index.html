@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="webApp">
+<html lang="en">
 
 <head>
     <title>Pizza Home</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,900" rel="stylesheet">
+
     <!--Css import-->
     <link rel="stylesheet" href="../pizza-home/css/style.css">
+    <link rel="stylesheet" href="../pizza-home/css/base.css">
+    <link rel="stylesheet" href="../pizza-home/css/custom.css">
+
     <!--Js Import-->
+    <script src="js/script.js"></script>
 </head>
 
 <body>
 <!--Header start-->
-<header>
-<div class="container-fluid" id="navbarMain">
-    <div class="container">
+<header class="header__wrapper" id="navbarMain">
+<div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2">Logo</div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-6">
-                <ul>
+            <div class="col-sm-2"><img class="" src="../pizza-home/img/logo.png"></div>
+            <div class="col-sm-5"></div>
+            <div class="col-sm-5 text-center">
+                <ul class="inline">
                     <li><a href="#">Order Online</a></li>
                     <li><a href="#">Book a Table</a></li>
                     <li><a href="#">Order Online</a></li>
@@ -31,10 +40,605 @@
                 </ul>
             </div>
         </div>
-    </div>
 </div>
 </header>
 <!--header ends-->
+
+<home _nghost-c0=""> 
+    <section  class="homepage__sec-1 _block slider__wrapper objectfit__container home__bg" style="background-image: url('../pizza-home/img/slider-bg.jpg');">
+        <img  alt="Pizza" class="objectfit__image hide" src="../pizza-home/img/slider-bg.jpg">
+        <div  class="_block _flex slider-for slick-initialized slick-slider"><button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true" style="display: inline-block;">Previous</button><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2686px; transform: translate3d(0px, 0px, 0px);"><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 1343px;"><div><div  class="_block" style="width: 100%; display: inline-block;">
+                <div  class="container-fluid application-container">
+                    <div  class="row">
+                        <div  class="_flex slider__container">
+                            <div  class="col-sm-6 ">
+                                <div  class="_block">
+                                    <img  alt="Pizza" class="img-responsive" src="../pizza-home/img/pizza.png">
+                                </div>
+                            </div>
+                            <div  class="col-sm-6">
+                                <div  class="slider__content _block">
+                                    <div  class="slider__off-price">$
+                                        <span >10 OFF</span>
+                                        <br >every 8"</div>
+                                    <div  class="slider__up-to">With Up to 4 Toppings</div>
+                                    <div  class="slider__button-group">
+                                        <a  class="btn btn-lg btn__white-hollow" href="javascript:void(0);" tabindex="0"> Avail Now</a>
+                                        <a  class="btn btn-lg btn__white" href="javascript:void(0);" tabindex="0"> See All Specials</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 1343px;"><div><div  class="_block" style="width: 100%; display: inline-block;">
+                <div  class="container-fluid application-container">
+                    <div  class="row">
+                        <div  class="_flex slider__container">
+                            <div  class="col-sm-6 ">
+                                <div  class="_block">
+                                    <img  alt="Pizza" class="img-responsive" src="../pizza-home/img/pizza.png">
+                                </div>
+                            </div>
+                            <div  class="col-sm-6">
+                                <div  class="slider__content _block">
+                                    <div  class="slider__off-price">$
+                                        <span >10 OFF</span>
+                                        <br >every 8"</div>
+                                    <div  class="slider__up-to">With Up to 4 Toppings</div>
+                                    <div  class="slider__button-group">
+                                        <a  class="btn btn-lg btn__white-hollow" href="javascript:void(0);" tabindex="-1"> Avail Now</a>
+                                        <a  class="btn btn-lg btn__white" href="javascript:void(0);" tabindex="-1"> See All Specials</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div></div></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="" aria-disabled="false">Next</button></div>
+    </section>
+    
+
+    
+    <section  class="homepage__sec-2 _block">
+        <div  class="_block _flex cbp__bg-wrapper objectfit__container home__bg" style="background-image: url('../pizza-home/img/cbp_bg.jpg');">
+            <img  alt="Chicago's Best Pizza" class="objectfit__image hide" src="../pizza-home/img/cbp_bg.jpg">
+            <div  class="container-fluid application-container">
+                
+                <div  class="_block cbp__wrapper">
+                    <div  class="cbp__video-container">
+                        <video  autoplay="" loop="" width="100%">
+                            <source  src="/assets/videos/chicago_best_pizza-new.mp4" type="video/mp4">
+                        </video>
+                        <div  class="cbp__video-icon click-action">
+
+                            <img  alt="video Icon" class="cbp__video-icon" src="../pizza-home/img/video-play-icon.svg">
+                        </div>
+                        <div  class="shrink-video cbp__shrink-video">X</div>
+                    </div>
+                    <div  class="cbp__content-wrapper">
+                        <div  class="home__content">
+                            <div  class="home__title _block">
+ 
+                                <h3 >Chicago's Best Pizza</h3>
+                                <h4 > Made from Scratch Daily</h4>
+                            </div>
+                            <div  class="home__description _block">
+                                <p >Above all, Home Run Inn is a proud, family-owned business -one with deep roots in the city
+                                    of Chicago. In 1923, the original Home Run Inn location opcned as a small tavern on Chicago's
+                                    South Side.</p>
+                                <br >
+                                <p >Founded by Mary and Vincent Grittani, the tavern received it's name one fateful day when
+                                    a baseball from the neighbourhood park smashed through one of the tavern's windows, a
+                                    home run for some young slugger on the sandlot. </p>
+                                <br >
+                                <p >In 1947, after that baseball made history, Mary and her son-in-law, Nick Perrin, crafted
+                                    the iconic Chicago pizza recipe known today.</p>
+                                <br >
+                            </div>
+                            <div  class="home__read-more _block">
+                                <a  class="btn btn__default btn-lg" href="javascript:void(0);">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section  class="homepage__sec-3 _block">
+        <div  class="menu__wrapper _block _flex objectfit__container home__bg" style="background-image: url('../pizza-home/img/menu-sec-bg.jpg');">
+            <img  alt="Menu Section" class="objectfit__image" src="../pizza-home/img/menu-sec-bg.jpg">
+            <div  class="container-fluid application-container">
+                <ul  class="menu__container _flex _block">
+                    <li  class="menu__card">
+                        <div  class="menu__card-header">
+                            <div  class="menu__card-icon-wrapper">
+                                <img  alt="Farm Fresh" class="menu__card-icon" src="../pizza-home/img/farm-fresh-icon.png" title="Farm Fresh">
+                            </div>
+                            <div  class="menu__card-title">FARM FRESH</div>
+                        </div>
+                        <div  class="menu__card-content">
+                            Our tomatoes are the highest quality in the country - farmed in Modesto, California.
+                        </div>
+                    </li>
+                    <li  class="menu__card">
+                        <div  class="menu__card-header">
+                            <div  class="menu__card-icon-wrapper">
+                                <img  alt="ALL NATURAL" class="menu__card-icon" src="../pizza-home/img/all-natural-icon.png" title="ALL NATURAL">
+                            </div>
+                            <div  class="menu__card-title">ALL NATURAL</div>
+                        </div>
+                        <div  class="menu__card-content">
+                            Our pizzas are made with only the finest all-natural, premium ingredients.
+                        </div>
+                    </li>
+                    <li  class="menu__card">
+                        <div  class="menu__card-header">
+                            <div  class="menu__card-icon-wrapper">
+                                <img  alt="HOMEMADE" class="menu__card-icon" src="../pizza-home/img/homemade-icon.png" title="HOMEMADE">
+                            </div>
+                            <div  class="menu__card-title">HOMEMADE</div>
+                        </div>
+                        <div  class="menu__card-content">
+                            Our traditional pizza is recognized for its irresistible flavor and features a handpinched, buttery crust.
+                        </div>
+                    </li>
+                </ul>
+
+                <div  class="_block _flex menu__see-menu-wrapper">
+                    <a  class="menu__see-menu-link btn btn-lg btn__default" href="/menu/pizza" ng-reflect-router-link="/menu/pizza">See Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section  class="homepage__sec-4 _block">
+        <div  class="cne__wrapper _block _flex">
+            <div  class="container-fluid application-container">
+                <div  class="cne__container _block _flex">
+                    <div  class="cne__left-wrapper">
+                        <div  class="home__content">
+                            <div  class="home__title _block">
+                                <h3 >Catering &amp; Events</h3>
+                                <h4 >Fresh. Homemade. Easy As Pie.</h4>
+                            </div>
+                            <div  class="home__description _block">
+                                <p >No matter what size your group, Home Run Inn Catering serves our classic family recipes and
+                                    is the perfect solution for any occasion.</p>
+                                <br >
+                            </div>
+
+                        </div>
+                        <div  class="cne__services _block">
+                            <ul  class="_block cne__services-list">
+                                <li >
+                                    <a  data-target="#catering" href="javascript:void(0);">Catering</a>
+                                </li>
+                                <li >
+                                    <a  data-target="#fundraising_events" href="javascript:void(0);">Fundraising Events</a>
+                                </li>
+                                <li >
+                                    <a  class="active" data-target="#hri_food_truck" href="javascript:void(0);">HRI Food Truck</a>
+                                </li>
+                                <li >
+                                    <a  data-target="#catering_e_club" href="javascript:void(0);">Catering E-Club </a>
+                                </li>
+                                <li >
+                                    <a  data-target="#hot_lunch" href="javascript:void(0);">Hot Lunch</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div  class="cne__right-wrapper">
+                        <div  class="cne__card _block" id="catering">
+                            <div  class="cne__card-img-wrapper">
+                                <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                            </div>
+                            <div  class="cne__card-content _block">
+                                <div  class="cne__card-title _block">Catering</div>
+                                <div  class="cne__card-text _block">Catering Catering Catering Catering Catering Catering Catering Catering Catering Catering.
+                                    Catering Catering Catering
+                                </div>
+                                <div  class="cne__link-wrapper">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="cne__card _block" id="fundraising_events">
+                            <div  class="cne__card-img-wrapper">
+                                <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                            </div>
+                            <div  class="cne__card-content _block">
+                                <div  class="cne__card-title _block">Fundraising Events</div>
+                                <div  class="cne__card-text _block"> Fundraising Events Fundraising Events Fundraising Events Fundraising Events Fundraising Events
+                                    Fundraising Events. Fundraising Events Fundraising Events Fundraising Events
+                                </div>
+                                <div  class="cne__link-wrapper">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="cne__card _block active" id="hri_food_truck">
+                            <div  class="cne__card-img-wrapper">
+                                <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                            </div>
+                            <div  class="cne__card-content _block">
+                                <div  class="cne__card-title _block">HRI Food Truck</div>
+                                <div  class="cne__card-text _block">In 2015, we launched our first ever food truck with the sole intention of being able to make
+                                    our famous pizza mobile.
+                                </div>
+                                <div  class="cne__link-wrapper">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="cne__card _block" id="catering_e_club">
+                            <div  class="cne__card-img-wrapper">
+                                <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                            </div>
+                            <div  class="cne__card-content _block">
+                                <div  class="cne__card-title _block">Catering E-Club</div>
+                                <div  class="cne__card-text _block"> Catering E-Club Catering E-Club Catering E-Club Catering E-Club Catering E-Club Catering
+                                    E-Club Catering E-Club Catering E-Club. Catering E-Club
+                                </div>
+                                <div  class="cne__link-wrapper">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div  class="cne__card _block" id="hot_lunch">
+                            <div  class="cne__card-img-wrapper">
+                                <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                            </div>
+                            <div  class="cne__card-content _block">
+                                <div  class="cne__card-title _block">Hot Lunch</div>
+                                <div  class="cne__card-text _block"> Hot Lunch Hot Lunch Hot Lunch Hot Lunch Hot Lunch Hot Lunch Hot Lunch Hot Lunch Hot Lunch
+                                    Hot Lunch Hot Lunch.
+                                </div>
+                                <div  class="cne__link-wrapper">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section  class="homepage__sec-5 _block">
+        
+        <div  class="fp__wrapper _block _flex objectfit__container home__bg" style="background-image: url('../pizza-home/img/frozen-pizza-bg.jpg');">
+            <img  alt="Frozen Pizza" class="objectfit__image hide" src="../pizza-home/img/frozen-pizza-bg.jpg">
+            <div  class="container-fluid application-container">
+                <div  class="fp__container _block _flex">
+                    <div  class="fp__left-wrapper">
+                        <div  class="home__content">
+                            <div  class="home__title _block">
+                                <h3 >Frozen Pizzas</h3>
+                                <h4 >Ready to Grill or Bake</h4>
+                            </div>
+                            <div  class="home__description _block">
+                                <p >All-Natural Pizza, Made From Scratch. Looking to stay in for the night, while also enjoying
+                                    the best frozen pizza in Chicago? We've got you covered. </p>
+                                <br >
+                                <p >Home Run Inn frozen pizzas are made exactly the same way we make them at our nine pizza places,
+                                    and they're available at retailers throughout the nation. We never cut corners and never
+                                    compromise our technique.</p>
+                                <br >
+                                <p >That's how we produce the best pizza Chicago has to offer. We use all-natural ingredients,
+                                    homemade sausage, fresh-shredded mozzarella cheese, and classic, buttery, flaky crust.
+                                </p>
+                                <br >
+                            </div>
+                            <div  class="home__read-more _block">
+                                <a  class="btn btn__default btn-lg" href="javascript:void(0);">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="fp__right-wrapper">
+                        <ul  class="_flex _block fp__dishes">
+                            <li >
+                                <a  class="objectfit__container" href="javascript:void(0);">
+                                    <img  alt="Classic" class="objectfit__image" src="../pizza-home/img/classic-img.jpg">
+                                    <span  class="fp__dish-title">Classic</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a  class="objectfit__container" href="javascript:void(0);">
+                                    <img  alt="Classic" class="objectfit__image" src="../pizza-home/img/signature-pizza.png">
+                                    <span  class="fp__dish-title">Signature</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a  class="objectfit__container" href="javascript:void(0);">
+                                    <img  alt="Ultra Thin" class="objectfit__image" src="../pizza-home/img/ultra-thin-img.jpg">
+                                    <span  class="fp__dish-title">Ultra Thin</span>
+                                </a>
+                            </li>
+                            <li >
+                                <a  class="objectfit__container" href="javascript:void(0);">
+                                    <img  alt="Deep Dish" class="objectfit__image" src="../pizza-home/img/deep-dish-img.jpg">
+                                    <span  class="fp__dish-title">Deep Dish</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <section  class="homepage__sec-6 _block">
+        
+        <div  class="pfoot__wrapper _block _flex">
+            <div  class="container-fluid application-container">
+                <div  class="pfoot__container _block _flex">
+                    <div  class="pfoot__content-wrapper _block">
+                        <div  class="row">
+                            <div  class="col-sm-6">
+                                <div  class="pfoot__title _block">Earn a Free Pizza!</div>
+                                <div  class="pfoot__content _block">Join our rewards program to earn points for every $ spent. Receive $20 back for every 250
+                                    points earned.
+                                </div>
+                                <div  class="_block pfoot__link-container">
+                                    <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Join Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+	
+
+
+
+<!--bindings={
+  "ng-reflect-ng-for-of": "[object Object]"
+}--><div  class="hide">
+
+<!--bindings={
+  "ng-reflect-ng-for-of": "[object Object]"
+}--><section  class="homepage__sec-1 _block slider__wrapper">
+
+    <img  class="slider__img" src="http://13.127.11.147/munch_cms/public/images/static/3_pizza-1_5367472365ad869fd44667.jpg">
+    <div  class="container-fluid application-container">
+        <div  class="row">
+            <div  class="col-sm-offset-6">
+                <div  class="slider__content _block">
+                    <div  class="slider__off-price">$<span >10 OFF</span><br >every 8"</div>
+                    <div  class="slider__up-to">With Up to 4 Toppings</div>
+                    <div  class="slider__button-group">
+                        <a  class="btn btn-lg btn__white-hollow" href="javascript:void(0);"> Avail Now</a>
+                        <a  class="btn btn-lg btn__white" href="javascript:void(0);"> See All Specials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section  class="homepage__sec-2 _block">
+    <div  class="_block _flex cbp__bg-wrapper">
+        <div  class="container-fluid application-container">
+            
+            <div  class="_block cbp__wrapper">
+                <div  class="cbp__video-container">
+                    <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object]"
+}--><video  autoplay="" loop="" width="100%">
+                        <source  type="video/mp4" src="http://13.127.11.147/munch_cms/public/videos/static/10_chicago_best_pizza_7332425325ad8406478f73.mp4">
+                    </video>
+                    <div  class="cbp__video-icon click-action">
+                        <img  alt="" class="cbp__video-icon" src="../pizza-home/img/video-icon.png">
+                    </div>
+                    <div  class="shrink-video cbp__shrink-video">X</div>
+                </div>
+                <div  class="cbp__content-wrapper">
+                    <div  class="home__content">
+                        <div  class="home__title _block">
+                            <h3 >Chicago Best Pizza</h3>
+                        <div  class="home__description _block">
+                            <div ><h4><strong>Made from scratch Daily</strong></h4> 
+Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula....</div>
+                        </div>
+						</div>
+                        <div  class="home__read-more _block">
+                            <a  class="btn btn__default btn-lg" href="javascript:void(0);">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section  class="homepage__sec-3 _block">
+    <div  class="menu__wrapper _block _flex">
+        <div  class="container-fluid application-container">
+            <ul  class="menu__container _flex _block">
+                <li  class="menu__card">
+                    <div  class="menu__card-header">
+                        <div  class="menu__card-icon-wrapper"><img  alt="Farm Fresh" class="menu__card-icon" src="../pizza-home/img/farm-fresh-icon.png" title="Farm Fresh"></div>
+                        <div  class="menu__card-title">FARM FRESH</div>
+                    </div>
+                    <div  class="menu__card-content">
+					     <div >Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt.</div>
+                    </div>
+                </li>
+                <li  class="menu__card">
+                    <div  class="menu__card-header">
+                        <div  class="menu__card-icon-wrapper"><img  alt="ALL NATURAL" class="menu__card-icon" src="../pizza-home/img/all-natural-icon.png" title="ALL NATURAL"></div>
+                        <div  class="menu__card-title">ALL NATURAL</div>
+                    </div>
+                    <div  class="menu__card-content">
+                        <div >Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</div>
+                    </div>
+                </li>
+                <li  class="menu__card">
+                    <div  class="menu__card-header">
+                        <div  class="menu__card-icon-wrapper"><img  alt="HOMEMADE" class="menu__card-icon" src="../pizza-home/img/homemade-icon.png" title="HOMEMADE"></div>
+                        <div  class="menu__card-title">HOME MADE</div>
+                    </div>
+                    <div  class="menu__card-content">
+                        <div >Curabitur aliquet quam id dui posuere blandit. Cras ultricies ligula sed magna dictum porta.</div>
+                    </div>
+                </li>
+            </ul>
+
+            <div  class="_block _flex menu__see-menu-wrapper">
+                <a  class="menu__see-menu-link btn btn-lg btn__default" href="javascript:void(0)l">See Menu</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section  class="homepage__sec-4 _block">
+    <div  class="cne__wrapper _block _flex">
+        <div  class="container-fluid application-container">
+            <div  class="cne__container _block _flex">
+                <div  class="cne__left-wrapper">
+                    <div  class="home__content">
+                        <div  class="home__title _block">
+                            <h3 >Catering &amp; Events</h3>
+                            <h4 >Fresh. Homemade. Easy As Pie.</h4>
+                        </div>
+                        <div  class="home__description _block">
+                            <p >No matter what size your group, Home Run Inn Catering serves our classic family recipes
+                                and is the perfect solution for any occasion.</p>
+                            <br >
+                        </div>
+
+                    </div>
+                    <div  class="cne__services _block">
+                        <ul  class="_block cne__services-list">
+                            <li ><a  href="javascript:void(0);">Catering</a></li>
+                            <li ><a  href="javascript:void(0);">Fundraising Events</a></li>
+                            <li ><a  href="javascript:void(0);">HRI Food Truck</a></li>
+                            <li ><a  href="javascript:void(0);">Catering E-Club </a></li>
+                            <li ><a  href="javascript:void(0);">Hot Lunch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="cne__right-wrapper">
+                    <div  class="cne__card _block">
+                        <div  class="cne__card-img-wrapper">
+                            <img  alt="Catering And Events" class="cne__card-img" src="../pizza-home/img/catering-and-event.jpg">
+                        </div>
+                        <div  class="cne__card-content _block">
+                            <div  class="cne__card-title _block">HRI Food Truck</div>
+                            <div  class="cne__card-text _block">In 2015, we launched our first ever food truck with the
+                                sole intention of being able to make our famous pizza mobile.
+                            </div>
+                            <div  class="cne__link-wrapper">
+                                <a  class="btn btn-lg btn__white" href="javascript:void(0);">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section  class="homepage__sec-5 _block">
+    
+    <div  class="fp__wrapper _block _flex">
+        <div  class="container-fluid application-container">
+            <div  class="fp__container _block _flex">
+                <div  class="fp__left-wrapper">
+                    <div  class="home__content">
+                        <div  class="home__title _block">
+                            <h3 >Frozen Pizzas</h3>
+                            <h4 >Ready to Grill or Bake</h4>
+                        </div>
+                        <div  class="home__description _block">
+                            <p >All-Natural Pizza, Made From Scratch. Looking to stay in for the night, while also enjoying the best frozen pizza in Chicago? We've got you covered. </p>
+                            <br >
+                            <p >Home Run Inn frozen pizzas are made exactly the same way we make them at our nine pizza places,
+                               and they're available at retailers throughout the nation. We never cut corners and never compromise our technique.</p>
+                            <br >
+                            <p >That's how we produce the best pizza Chicago has to offer. We use all-natural ingredients,
+                               homemade sausage, fresh-shredded mozzarella cheese, and classic, buttery, flaky crust.</p>
+                            <br >
+                        </div>
+                        <div  class="home__read-more _block">
+                            <a  class="btn btn__default btn-lg" href="javascript:void(0);">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div  class="fp__right-wrapper">
+                    <ul  class="_flex _block fp__dishes">
+                        <li ><a  href="javascript:void(0);"><img  alt="Classic" src="../pizza-home/img/classic-img.jpg"><span  class="fp__dish-title">Classic</span></a></li>
+                        <li ><a  href="javascript:void(0);">
+                            <span  class="fp__signature-content">
+                                <span ><img  alt="Signature" src="../pizza-home/img/signature-icon.png"></span>
+                                <span >Signature</span>
+                            </span>
+                        </a></li>
+                        <li ><a  href="javascript:void(0);"><img  alt="Ultra Thin" src="../pizza-home/img/ultra-thin-img.jpg">
+                            <span  class="fp__dish-title">Ultra Thin</span></a></li>
+                        <li ><a  href="javascript:void(0);"><img  alt="Deep Dish" src="../pizza-home/img/deep-dish-img.jpg">
+                            <span  class="fp__dish-title">Deep Dish</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section  class="homepage__sec-6 _block">
+    
+    <div  class="pfoot__wrapper _block _flex">
+        <div  class="container-fluid application-container">
+            <div  class="pfoot__container _block _flex">
+                <div  class="pfoot__content-wrapper _block">
+                    <div  class="row">
+                        <div  class="col-sm-6">
+                            <div  class="pfoot__title _block">Earn a Free Pizza!</div>
+                            <div  class="pfoot__content _block">Join our rewards program to earn points for every $ spent. Receive $20 back for every 250 points earned.</div>
+                            <div  class="_block pfoot__link-container">
+                                <a  class="btn btn-lg btn__inverse" href="javascript:void(0);">Join Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</div>
+
+<router-outlet ></router-outlet></home>
 </body>
 <script type="text/javascript" src="js/wow.min.js"></script>
 

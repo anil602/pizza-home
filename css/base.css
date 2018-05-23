@@ -1,0 +1,32 @@
+/*****************************************************/
+/************   BASE CSS STRUCTURE  ***********************\
+/*****************************************************/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/***********Links*****************************/
+
+/******Default links*******/
+
+a{
+    color: #fff;
+}
+
+/******Hover links*******/
+
+a:hover,a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
