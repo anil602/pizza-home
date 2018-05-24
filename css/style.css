@@ -28,3 +28,11 @@
     -o-object-position: center center;
     object-position: center center;
 }
+
+/*****************************************************/
+/************    SLIDER START  ***********************\
+/*****************************************************/
+
+.slider__wrapper{
+    width:100%;
+}
