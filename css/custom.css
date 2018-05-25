@@ -72,3 +72,48 @@ body {background: #eceaea;}
 .wrapper_placement{
     padding: 120px 0;
 }
+
+/*********** Background image position *********/
+.back-img-postio
+{
+    background: center/cover no-repeat fixed;
+}
+
+/*********** list inline********************/
+.inline{
+    display: inline-block;
+}
+
+/**** Flex ********/
+.flex{
+    display: flex;
+    width:100%;
+}
+
+/*************CONTAINER SIZE**********************/
+.application-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+
+/***************Block**************************/
+.block{width:100%;
+float: left;}
+
+.section-title{
+    color:#000;
+    margin-bottom: 15px;
+}
+.section-content{
+
+}
+.section-wrap{
+    width: 100%;
+    float: left;
+    padding: 60px;
+    color: #777;
+    font-weight: 400;
+    background-color: #fff;
+}
