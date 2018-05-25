@@ -10,7 +10,7 @@
 
 /*********background color on header **********/
 .fixed{
-    background: rgb(196, 12, 39);;
+    background: rgb(196, 12, 39);
 }
 .inline li{
     display: inline-block;
@@ -35,4 +35,23 @@
 
 .slider__wrapper{
     width:100%;
+}
+
+/*****************************************************/
+/************    Video pop up START  ***********************\
+/*****************************************************/
+
+/*****************************************************/
+/************    Category section START  ***********************\
+/*****************************************************/
+.section_category{position: relative;}
+.category__wrapper{
+    padding: 120px 0;
+}
+
+.col-sm-4.category__partition {
+    width: 28%;
+    margin: 0 10px 0 30px;
+    background:  rgb(196, 12, 39);
+    padding: 20px 40px;
 }
