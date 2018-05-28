@@ -39,6 +39,12 @@
     filter: alpha(opacity=50);
     opacity: .5;
 }
+
+.flex_space-between{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 /**Video **/
 body {background: #eceaea;}
 
@@ -60,21 +66,20 @@ body {background: #eceaea;}
 
 
 .wraper-position__wrapper {
-    position: relative;
+/*    position: relative;*/
     z-index: 1;
     bottom: -120px;
-    -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 
 /**** Wrppaer postion and placement********/
 .wrapper_placement{
     padding: 120px 0;
+    margin: 60px 0;
 }
 
 /*********** Background image position *********/
-.back-img-postio
+.back-img-postion
 {
     background: center/cover no-repeat fixed;
 }

@@ -123,6 +123,7 @@
    display: flex;}
 .category_container{
     background: #fff;
+    margin: 60px 0;
 }
 .category-content{
     font-weight: 400;
@@ -156,6 +157,20 @@
     content: "\e902";
 }
 .footer-container {
-    padding: 45px 0;
+    border-bottom: 1px solid #777;
 }
-.footer-listing li{list-style: none;}
+.footer-listing li{
+    list-style: none;  
+    width: 100%;
+    float: left;
+    margin: 5px 0;}
+.footer_icon-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}    
+.footer-copyright{
+    padding: 15px 0;
+}
+.footer-navigation{padding: 45px 0;
+    }
