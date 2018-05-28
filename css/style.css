@@ -68,6 +68,11 @@
         -o-object-position: center center;
         object-position: center center;
 }
+
+.category_items a:hover img{
+    height: 110%;
+    width: 110%;
+} 
 .category-icon-title{
     left:50%;
     top:50%;
@@ -95,6 +100,11 @@
     font-weight: 600;
     text-transform: uppercase;
 }
+.category_items img {
+    transition: all .2s linear;
+    left: unset;
+    top: unset;
+}
 .category_items {
     margin: 0;
     padding: 0;
@@ -119,3 +129,33 @@
     padding: 45px;
     background: #fff;
 }
+
+.category_items a:after {
+    content: "";
+    position: absolute;
+    background-color: rgba(26,25,26,.5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+}
+
+
+
+/*****************************************************/
+/************    Footer section START  ***********************\
+/*****************************************************/
+.footer__wrapper {
+  width: 100%;
+    float: left;
+    background: #333;
+    color: #eaeaea;
+}
+.icon-frozen-pizza:before {
+    content: "\e902";
+}
+.footer-container {
+    padding: 45px 0;
+}
+.footer-listing li{list-style: none;}
