@@ -122,7 +122,7 @@
 
 .homepage_tabbing{padding: 120px 0;background: #fff;}
 .tabbing-right-content{
-    display: none;
+        padding: 45px;
     background-color: #c40c27;
     color: #fff;
 }
