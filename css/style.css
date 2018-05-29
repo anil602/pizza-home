@@ -73,10 +73,10 @@
 /* Style the tab */
 .tab {
   /*  float: left;*/
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+/*    border: 1px solid #ccc;*/
+  /*  background-color: #f1f1f1;*/
    /* width: 30%;*/
-    height: 300px;
+  /*  height: 300px;*/
 }
 
 /* Style the buttons inside the tab */
@@ -92,31 +92,57 @@
     cursor: pointer;
     transition: 0.3s;
     font-size: 17px;
+     margin: 10px 0;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #f6f6f6;
+    text-decoration: none;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-    background-color: #ccc;
+    background-color: #f6f6f6;
+    border-left: 6px solid #c40c27;
+    color:#c40c27;
+
 }
 
 /* Style the tab content */
 .tabcontent {
 /*    float: left;*/
     padding: 0px 12px;
-    border: 1px solid #ccc;
+   /* border: 1px solid #ccc;*/
 /*    width: 70%;*/
     border-left: none;
-    height: 300px;
+  /*  height: 300px;*/
 }
 
 
 .homepage_tabbing{padding: 120px 0;background: #fff;}
-
+.tabbing_content{
+        box-shadow: 3px 3px 20px 0 rgba(0,0,0,.2);
+    background-color: #fff;
+}
+.home__content {
+    width: 100%;
+    float: left;
+    padding: 60px;
+    color: #777;
+    font-weight: 400;
+    background-color: #fff;
+}
+.home__title {
+    color: #1a191a;
+    margin-bottom: 15px;
+}
+.home__title>h3, .home__title>h4 {
+    font-weight: 600;
+    width: 100%;
+    float: left;
+    margin: 0 0 5px;
+}
 
 /*****************************************************/
 /************    Category section START  ***********************\
