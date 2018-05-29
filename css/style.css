@@ -137,6 +137,9 @@
         box-shadow: 3px 3px 20px 0 rgba(0,0,0,.2);
     background-color: #fff;
 }
+.tabbing{
+    background-color: #fff;
+}
 .home__content {
     width: 100%;
     float: left;
