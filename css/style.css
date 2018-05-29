@@ -121,6 +121,11 @@
 
 
 .homepage_tabbing{padding: 120px 0;background: #fff;}
+.tabbing-right-content{
+    display: none;
+    background-color: #c40c27;
+    color: #fff;
+}
 .tabbing_content{
         box-shadow: 3px 3px 20px 0 rgba(0,0,0,.2);
     background-color: #fff;
