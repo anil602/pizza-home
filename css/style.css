@@ -176,7 +176,12 @@
         -o-object-position: center center;
         object-position: center center;
 }
-
+.category__wrap {
+    /* width: 30%; */
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
+}
 .category_items a:hover img{
     height: 110%;
     width: 110%;
