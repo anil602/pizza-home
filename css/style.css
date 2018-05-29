@@ -49,6 +49,13 @@
 .slider__container {
     padding: 64px 0;
 }
+.slider__container .btn {
+    max-width: 220px;
+    width: 40%;
+}
+.carousel-indicators{z-index:7; 
+}
+
 
 /*****************************************************/
 /************    SLIDER START  ***********************\
