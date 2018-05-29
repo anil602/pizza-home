@@ -9,3 +9,4 @@ $(window).scroll(function() {
         nav.removeClass('fixed');
     }
 });
+
