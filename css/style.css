@@ -1,6 +1,7 @@
 /*****************************************************/
 /************    HEADER START  ***********************\
 /*****************************************************/
+/**navbar**/
 .header__wrapper{
      position: fixed;
     z-index: 9;
@@ -8,14 +9,16 @@
     padding: 15px 0;
 }
 
-/*********background color on header **********/
+/** Red background adding on scoll**/
 .fixed{
     background: rgb(196, 12, 39);
 }
+/**Inline of lists**/
 .inline li{
     display: inline-block;
     padding: 10px 6px;
 }
+
 .objectfit__image {
     position: absolute;
     left: 0;
@@ -62,16 +65,115 @@
 /*****************************************************/
 /************    SLIDER START  ***********************\
 /*****************************************************/
-
+/**Wrapper of slider**/
 .slider__wrapper{
     width:100%;
+}
+/**right slide icon**/
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    right: 0;
+    position: absolute;
+}
+/**left slide icon**/
+.glyphicon-chevron-left:before{ 
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    right: 0;
+    position: absolute;
+}
+/**slider control**/
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
 }
 
 /*****************************************************/
 /************    Video pop up START  ***********************\
 /*****************************************************/
 
+.myvideo-sec{ background:#fff; 
+    position:relative;
+}
+.video{position: absolute;
+    display: flex;left: 0; 
+    right: 40%; height: 100%;
+    z-index: 1;
+    overflow: hidden; 
+    -webkit-transition: right ease 0.5s;
+    transition: right ease 0.5s;
+    cursor: pointer;
+    }
 
+.video.fullvideo{
+    right: 0;
+    cursor: default;
+}    
+    
+.video video{
+    width:100%;
+    height:100%; 
+    -o-object-fit: cover; 
+    object-fit: cover;
+}
+.video:hover:before{
+    content:""; 
+    width:100%; 
+    height:100%; 
+    background:rgba(0,0,0,.8); 
+    position: absolute;
+}
+
+.video-right{
+    width: 40%; 
+    float: right;
+}
+.video-content{ 
+    width: 100%; 
+    float: left; 
+    padding: 60px;  
+    font-weight: 400; 
+    background-color: #ffffff;
+}
+.close_btn {
+    position: absolute; 
+    right: 10px; 
+    top: 1px; 
+    cursor: pointer; 
+    display: none; 
+    transition:all ease .5s;
+}
+.close_btn img{
+    width: 30px; 
+    background: rgba(255,255,255,.5); 
+    padding: 8px;
+    border-radius: 100%;
+}
+.fullvideo .close_btn {
+    display: block;
+}
+.home-content{
+    color: #777777;
+}
+.wraper-position__wrapper {
+/*    position: relative;*/
+    z-index: 1;
+    bottom: -120px;
+}
 
 /*****************************************************/
 /************    tabbing START  ***********************\
@@ -120,23 +222,22 @@
 
 /* Style the tab content */
 .tabcontent {
-/*    float: left;*/
     padding: 0px 12px;
-   /* border: 1px solid #ccc;*/
-/*    width: 70%;*/
     border-left: none;
-  /*  height: 300px;*/
 }
-
-
-.homepage_tabbing{padding: 120px 0;background: #fff;}
+/*tabbing spacer*/
+.homepage_tabbing{
+    padding: 120px 0;
+    background: #fff;
+}
+/*tabing content*/
 .tabbing-right-content{
-        padding: 45px;
+    padding: 45px;
     background-color: #c40c27;
     color: #fff;
 }
 .tabbing_content{
-        box-shadow: 3px 3px 20px 0 rgba(0,0,0,.2);
+    box-shadow: 3px 3px 20px 0 rgba(0,0,0,.2);
     background-color: #fff;
 }
 .tabbing{
@@ -149,16 +250,6 @@
     color: #777;
     font-weight: 400;
     background-color: #fff;
-}
-.home__title {
-    color: #1a191a;
-    margin-bottom: 15px;
-}
-.home__title>h3, .home__title>h4 {
-    font-weight: 600;
-    width: 100%;
-    float: left;
-    margin: 0 0 5px;
 }
 
 /*****************************************************/
@@ -305,6 +396,17 @@
 .icon-frozen-pizza:before {
     content: "\e902";
 }
+.icon-size{
+    display: block;
+    width: 15px;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 5px;
+}
+
 .footer-container {
     border-bottom: 1px solid #777;
 }
