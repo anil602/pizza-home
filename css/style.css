@@ -55,7 +55,9 @@
 }
 .carousel-indicators{z-index:7; 
 }
-
+.hamburger_nav{
+    font-size: 34px;
+}
 
 /*****************************************************/
 /************    SLIDER START  ***********************\
@@ -197,8 +199,6 @@
     width: 110%;
 } 
 .category-icon-title{
-    left:50%;
-    top:50%;
     z-index: 1;
 }
 .category-title{
@@ -263,6 +263,15 @@
     top: 0;
     bottom: 0;
     display: block;
+}
+
+.category__left{
+    flex: 1 1 50%;
+    display: flex;
+}
+.category__right{
+    flex: 1 1 50%;
+    display: flex;
 }
 
 /*****************************************************/
