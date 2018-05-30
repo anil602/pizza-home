@@ -1,3 +1,12 @@
+/***********From device width 768px **************/
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: 6px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -15px;
+}
+}
 
 /***********Up to device width 768px **************/
 @media (max-width: 768px){
@@ -37,6 +46,20 @@
     font-weight: 500;
     color: #fff;
     margin-left: 5px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 0%;
+    margin-left: 26px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 46%;
+    margin-right: -16px;
+}
+.inline li {
+     padding:0; 
+}
+.hamburger_nav {
+    font-size: 14px;
 }
 }
 

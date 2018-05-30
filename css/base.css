@@ -19,6 +19,10 @@ body{
     text-align: center;
 }
 
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
 /***********Links*****************************/
 
 /******Default links*******/

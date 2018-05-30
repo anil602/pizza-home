@@ -1,40 +1,35 @@
 /*****************************************************/
 /************    HEADER START  ***********************\
 /*****************************************************/
-/**navbar**/
+/**header wrapper**/
 .header__wrapper{
     position: fixed;
     z-index: 9;
     width: 100%;
-    padding: 10px 0 0 0;
+    padding: 10px 0;
 }
 
-/** Red background adding on scoll**/
+/**Adding Red background on scoll**/
 .fixed{
     background: rgb(196, 12, 39);
 }
+
 /**Inline of lists**/
 .inline li{
     display: inline-block;
-    padding: 10px 6px;
+    padding: 0px 6px;
 }
 
 .navbar li a.active ,.navbar li a:hover,.navbar li a:focus {
     color: #fff;
     text-decoration: none;}
 
-.objectfit__image {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center center;
-    object-position: center center;
+ul.inline.header__navbar li a{ 
+    vertical-align: middle;
+    height: 100px;
 }
+
+/****Slider styling****/
 .slider__off-price {
     color: #fff;
     font-size: 100px;
@@ -62,12 +57,20 @@
 }
 .carousel-indicators{z-index:7; 
 }
+
+
+/**logo**/
+.logo{
+    height: auto;
+    vertical-align: middle;
+}
+
+/**hamburger**/
 .hamburger_nav{
     font-size: 34px;
 }
 
-
-/**nav bar popup**/
+/**overlayer on nav bar burger click(popup)**/
 
 .overlay {
     height: 100%;
@@ -110,6 +113,7 @@
     font-size: 60px;
 }
 }
+
 /*****************************************************/
 /************    SLIDER START  ***********************\
 /*****************************************************/
@@ -117,6 +121,7 @@
 .slider__wrapper{
     width:100%;
 }
+
 /**right slide icon**/
 .glyphicon-chevron-right:before {
     content: "\e080";
@@ -126,6 +131,7 @@
     right: 0;
     position: absolute;
 }
+
 /**left slide icon**/
 .glyphicon-chevron-left:before{ 
     background: red;
@@ -134,6 +140,7 @@
     right: 0;
     position: absolute;
 }
+
 /**slider control**/
 .carousel-control {
     position: absolute;
@@ -153,10 +160,16 @@
 /*****************************************************/
 /************    Video pop up START  ***********************\
 /*****************************************************/
+/**Video wrapper**/
+.video-position__wrapper {
+    z-index: 1;
+    bottom: -120px;
+}
 
 .myvideo-sec{ background:#fff; 
     position:relative;
 }
+/**Video **/
 .video{position: absolute;
     display: flex;left: 0; 
     right: 40%; height: 100%;
@@ -167,6 +180,7 @@
     cursor: pointer;
     }
 
+/** Full screen video**/
 .video.fullvideo{
     right: 0;
     cursor: default;
@@ -178,6 +192,7 @@
     -o-object-fit: cover; 
     object-fit: cover;
 }
+
 .video:hover:before{
     content:""; 
     width:100%; 
@@ -186,6 +201,8 @@
     position: absolute;
 }
 
+
+/***Video content (right side)**/
 .video-right{
     width: 40%; 
     float: right;
@@ -197,6 +214,8 @@
     font-weight: 400; 
     background-color: #ffffff;
 }
+
+/**cancel btn over full screen video**/
 .close_btn {
     position: absolute; 
     right: 10px; 
@@ -216,11 +235,6 @@
 }
 .home-content{
     color: #777777;
-}
-.wraper-position__wrapper {
-/*    position: relative;*/
-    z-index: 1;
-    bottom: -120px;
 }
 
 /*****************************************************/
