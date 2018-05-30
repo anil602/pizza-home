@@ -61,6 +61,14 @@
 .hamburger_nav {
     font-size: 14px;
 }
+.overlay-nav-left li{
+    font-size: 30px;
+    font-weight: 600;
+}
+.overlay-nav-right li{
+    font-size: 18px;
+    font-weight: 400;
+}
 }
 
 /*****************Up to device width 520px ************/
