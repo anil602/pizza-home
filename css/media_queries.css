@@ -49,3 +49,12 @@
     margin: 3px 0;
 }
     }
+
+/*****************Up to device width 450px (nav bar pop up) ************/
+ @media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }   
