@@ -96,9 +96,9 @@ ul.inline.header__navbar li a{
 .overlay-nav{
 color: #fff;
 }
-.overlay-popup-open{
+/*.overlay-popup-open{
     overflow: hidden;
-}
+}*/
 .overlay-nav li{
     list-style: none;
 }
