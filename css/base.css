@@ -113,6 +113,8 @@ a:hover,a:active{
     color: #fff;
     background-color: rgba(13,13,13,0);
     border-color: #fff;
+    outline: none;
+    outline-color: transparent;
 }
 
 
